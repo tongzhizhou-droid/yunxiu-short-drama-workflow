@@ -1,0 +1,25 @@
+# 具体剧目素材与生产结果默认不进入版本库；只保留目录内的 .gitkeep。
+/input/**
+!/input/**/
+!/input/**/.gitkeep
+/旁白/**
+!/旁白/.gitkeep
+/视频/**
+!/视频/.gitkeep
+/output/**
+!/output/.gitkeep
+/scratch/**
+!/scratch/.gitkeep
+/参考资料/**
+!/参考资料/.gitkeep
+
+# 运行期与本机连接文件
+/work/
+/blender_connection_*/
+/blender_active_connection.json
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.zip
+
