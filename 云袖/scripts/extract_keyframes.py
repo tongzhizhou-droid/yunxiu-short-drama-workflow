@@ -16,8 +16,9 @@ try:
     import numpy as np
     from PIL import Image, ImageDraw, ImageFont
 except ImportError as exc:
+    requirements = Path(__file__).with_name("keyframe-requirements.txt").resolve()
     raise SystemExit(
-        "Missing dependency. Install scripts/requirements.txt in the active Python environment. "
+        f"Missing dependency. Install dependencies from {requirements} in the active Python environment. "
         f"Original error: {exc}"
     )
 
