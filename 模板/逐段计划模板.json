@@ -14,7 +14,27 @@
       "startState": "待填写",
       "endState": "待生成后回填",
       "platformStatus": "not_filled",
-      "generationStatus": "not_generated"
+      "generationStatus": "not_generated",
+      "draftRevision": "r1",
+      "reviewRevision": "",
+      "platformRevision": "",
+      "videoRevision": "",
+      "adoptedVideo": {
+        "path": "",
+        "sha256": "",
+        "adoptionStatus": "not_selected",
+        "observedEndState": "",
+        "restrictions": []
+      },
+      "continuityReferences": [],
+      "voiceBindings": [],
+      "inspection": {
+        "still": "not_checked",
+        "motion": "not_checked",
+        "audio": "not_checked"
+      },
+      "openFeedbackIds": []
     }
-  ]
+  ],
+  "sourceSha256": ""
 }
